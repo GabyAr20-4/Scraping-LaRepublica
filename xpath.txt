@@ -1,0 +1,4 @@
+Links = //div[@class="news V_Title_Img"]//a/@href
+Titulo = //div[@class="mb-auto"]//a[@class="economiaSect"]/text()
+Resumen = //div[@class="lead"]/p/text()
+Cuerpo = //div[@class="html-content"]/p[not (@class)]/text()
